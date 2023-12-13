@@ -92,7 +92,7 @@
 }
 
 .header__footer {
-  width: 1280px;
+  width: 1300px;
   margin: auto 80px 40px 80px;
   padding: 0;
   display: flex;
@@ -111,7 +111,7 @@
   display: block;
 }
 
-.header__paragraph_right {
+.header__paragraph-right {
   margin: 32px 0 0;
 }
 
@@ -168,10 +168,10 @@
   font-weight: 500;
 }
 
-.span__space {
-  margin-left: 268px;
+.span-space {
+  margin-left: 230px;
 }
 
-.span__space_right {
-  margin-left: 205px;
+.span-space-right {
+  margin-left: 150px;
 }
