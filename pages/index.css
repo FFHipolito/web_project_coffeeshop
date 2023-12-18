@@ -193,11 +193,17 @@
   line-height: 52px;
 }
 
+.reservation__form {
+  margin: auto;
+}
+
+.form__elements {
+  max-width: 385px;
+  padding-bottom: 120px;
+}
+
 .reservation__container {
   border: none;
-  max-width: 385px;
-  margin: auto;
-  padding-bottom: 120px;
 }
 
 .reservation__label {
