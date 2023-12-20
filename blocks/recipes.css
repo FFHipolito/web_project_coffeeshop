@@ -34,7 +34,7 @@
   gap: 40px;
 }
 
-.video-item {
+.recipes__video-item {
   margin: 268px 0 215px;
 }
 
@@ -44,17 +44,17 @@
   border: none;
 }
 
-.video-caption {
+.recipes__video-caption {
   margin: 24px 0 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
 }
 
-.span-space {
+.recipes__span-space {
   margin-left: 230px;
 }
 
-.span-space-right {
+.recipes__span-space-right {
   margin-left: 150px;
 }
