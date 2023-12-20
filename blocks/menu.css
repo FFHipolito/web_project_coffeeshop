@@ -1,0 +1,26 @@
+.menu {
+  background-image: url(../images/background_menu.svg);
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+}
+
+.menu__title {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  max-width: 800px;
+  padding-top: 24px;
+  margin: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}

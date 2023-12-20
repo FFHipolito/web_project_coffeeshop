@@ -12,7 +12,6 @@
       name="keywords"
       content="biblioteca, café, estudos, aprendizado, receitas"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,7 +52,7 @@
               <a href="#section-receitas" class="nav__link">Receitas</a>
             </li>
             <li>
-              <a href="#section-cardapio" class="nav__link">Cardápio</a>
+              <a href="#section-menu" class="nav__link">Cardápio</a>
             </li>
             <li>
               <a href="#section-reservar-uma-mesa" class="nav__link"
@@ -186,11 +185,137 @@
             </fieldset>
           </form>
         </section>
-
-        <section id="section-cardapio" class="cardapio"></section>
-        <section class="sobre"></section>
+        <section id="section-menu" class="menu">
+          <h4 class="menu__title">Cardápio</h4>
+          <p class="menu__subtitle">
+            Preparamos café a partir de grãos torrados localmente com
+            certificação Fairtrade e usamos xícaras biodegradáveis. Todos os
+            chás da nossa coleção custam R$20/xícara.
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <h5 class="card__title">Filtro</h5>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Regular (350 ml)<span class="card__list-divider"></span>R$10
+                </li>
+                <li class="card__list-item">
+                  Grande (470 ml)<span class="card__list-divider"></span>R$12,5
+                </li>
+                <li class="card__list-item">
+                  Extra grande (590 ml)<span class="card__list-divider"></span
+                  >R$15
+                </li>
+                <li class="card__list-item">
+                  Tamanho do copo (700 ml descafeinado)<span
+                    class="card__list-divider"
+                  ></span
+                  >R$17,5
+                </li>
+                <li class="card__list-item">
+                  Café Gelado (470 ml)<span class="card__list-divider"></span
+                  >R$12,5
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h5 class="card__title">Expresso</h5>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Macchiato<span class="card__list-divider"></span>R$22,5
+                </li>
+                <li class="card__list-item">
+                  Cortado<span class="card__list-divider"></span>R$22,5
+                </li>
+                <li class="card__list-item">
+                  Mocha<span class="card__list-divider"></span>R$30
+                </li>
+                <li class="card__list-item">
+                  Nascer do sol na Área da Baía (descafeinado)<span
+                    class="card__list-divider"
+                  ></span
+                  >R$10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h5 class="card__title">Produtos de Padaria</h5>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Croissant de Amêndoa<span class="card__list-divider"></span
+                  >R$20
+                </li>
+                <li class="card__list-item">
+                  Pão de Banana<span class="card__list-divider"></span>R$17,5
+                </li>
+                <li class="card__list-item">
+                  Torta de Limão<span class="card__list-divider"></span>R$30
+                </li>
+                <li class="card__list-item">
+                  Bolo Veludo Azul<span class="card__list-divider"></span>R$37,5
+                </li>
+                <li class="card__list-item">
+                  Cookie web<span class="card__list-divider"></span>R$20
+                </li>
+                <li class="card__list-item">
+                  Baguete fresc<span class="card__list-divider"></span>R$2,5
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <h6 class="about__title">Sobre o Café</h6>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nosso café está localizado na biblioteca Triple Peaks.
+            </p>
+            <p class="about__paragraph">
+              Possui 6 mesas e Wi-Fi gratuito.Nossa principal missão é manter
+              nossos hóspedes confortáveis e energizados.
+            </p>
+            <p class="about__paragraph">
+              Além disso, tentamos reduzir nosso impacto ambiental para não
+              vendermos copos descartáveis. Mas você pode comprar um de nossos
+              copos reutilizáveis!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
-      <footer id="section-contatos" class="footer"></footer>
+      <footer id="section-contatos" class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo-imagem"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h6 class="footer__social-heading">Mídia Social</h6>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="https://www.facebook.com/" class="footer__social-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook-icon"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="https://www.instagram.com" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram-icon"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2023 Fernando Fontes Hipólito</p>
+      </footer>
     </div>
   </body>
 </html>
